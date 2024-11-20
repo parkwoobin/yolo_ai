@@ -10,4 +10,4 @@ langchain
 langchain-openai
 langchain-community
 torch
-pip install --upgrade pip
+
