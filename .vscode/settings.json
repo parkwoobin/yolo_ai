@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/e80d2e26-d87c-4546-9b0d-af690a2c7093/resourceGroups/YOLOAppResourceGroup/providers/Microsoft.Web/sites/YOLOAppService",
+    "appService.deploySubpath": "."
+}
