@@ -1,0 +1,13 @@
+
+
+streamlit==1.26.0
+bcrypt
+cryptography
+python-dotenv
+
+openai
+langchain
+langchain-openai
+langchain-community
+torch
+pip install --upgrade pip
