@@ -20,4 +20,4 @@ EXPOSE 80
 ENV PORT=80
 
 # Run Streamlit app when the container launches
-CMD ["streamlit", "run", "app.py", "--server.port=80", "--server.address=0.0.0.0"]
+CMD ["streamlit", "run", "app.py", "--server.port=8080", "--server.address=0.0.0.0"]
