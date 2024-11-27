@@ -21,3 +21,5 @@ ENV PORT 80
 
 # Run Streamlit app when the container launches
 CMD ["streamlit", "run", "app.py", "--server.port=80"]
+
+ENV PATH=/usr/local/bin
