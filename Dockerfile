@@ -17,9 +17,7 @@ COPY . /app
 EXPOSE 80
 
 # Define environment variable for Streamlit
-ENV PORT 80
+ENV PORT=80
 
 # Run Streamlit app when the container launches
 CMD ["streamlit", "run", "app.py", "--server.port=80"]
-
-ENV PATH=/usr/local/bin
