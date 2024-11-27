@@ -16,8 +16,8 @@ COPY . /app
 # Make port 80 available to the world outside this container
 EXPOSE 80
 
-# Define environment variable for Streamlit
+# Define environment variable for Streamlitaz webapp config container set --resource-group YOLOAppResourceGroup --name YOLOAppService --docker-custom-image-name <your_acr_name>.azurecr.io/yoloapp:latest --docker-registry-server-url https://<your_acr_name>.azurecr.io --docker-registry-server-user <username> --docker-registry-server-password <password>
 ENV PORT=80
 
 # Run Streamlit app when the container launches
-CMD ["streamlit", "run", "app.py", "--server.port=80"]
+CMD ["streamlit", "run", "app.py", "--server.port=80", "--server.address=0.0.0.0"]
