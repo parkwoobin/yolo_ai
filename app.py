@@ -1,5 +1,6 @@
 import streamlit as st
 from db import initialize_database, get_api_key
+import os
 
 # 데이터베이스 테이블 생성
 initialize_database()
@@ -43,3 +44,6 @@ else:
     pg = st.navigation([login_page])
     
 pg.run()
+
+if __name__ == "__main__":
+    os.system("streamlit run app.py --server.port 8080")
