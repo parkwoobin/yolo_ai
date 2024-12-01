@@ -1,0 +1,13 @@
+prefix=d:/VS_Code/yolo_ai/.conda/Library
+exec_prefix=d:/VS_Code/yolo_ai/.conda/Library
+libdir=d:/VS_Code/yolo_ai/.conda/Library/lib
+sharedlibdir=d:/VS_Code/yolo_ai/.conda/Library/lib
+includedir=d:/VS_Code/yolo_ai/.conda/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
