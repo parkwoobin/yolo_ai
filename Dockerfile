@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . /app
 
-RUN pip install streamlit==1.26.0
+RUN pip install streamlit
 RUN pip install bcrypt
 RUN pip install cryptography
 RUN pip install python-dotenv
