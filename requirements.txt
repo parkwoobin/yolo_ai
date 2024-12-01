@@ -10,4 +10,4 @@ langchain
 langchain-openai
 langchain-community
 
-
+streamlit opencv-python-headless torch torchvision
