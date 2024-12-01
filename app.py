@@ -45,5 +45,4 @@ else:
     
 pg.run()
 
-if __name__ == "__main__":
-    os.system("streamlit run app.py --server.port 8080")
+os.environ["STREAMLIT_SERVER_PORT"] = "8080"
